@@ -24,11 +24,36 @@ SubNvim is a IDE for substrate parachain or ink development based on neovim. wil
 - bufferline.
 - git intergration.
 
+## screenshort
+find files
+  <p align="center">
+    <img
+   	src="./asset/findfile.png"
+    >
+  </p>
+  
+ live grep
+   <p align="center">
+    <img
+   	src="./asset/livegrep.png"
+    >
+  </p>
+  
+ reference
+   <p align="center">
+    <img
+   	src="./asset/reference.png"
+    >
+  </p>
+ 
+
 ## environment setup
 the follow step will guide you to setup the basic environment for subNvim.
 
-1. must install command 
-   ```sudo apt install g++ clangd ripgrep xsel lldb build-essential  cmake autoconf clang pkg-config libssl-dev unzip fd-find fzf```
+1. must install command:
+```
+   sudo apt install g++ clangd ripgrep xsel lldb build-essential  cmake autoconf clang pkg-config libssl-dev unzip fd-find fzf
+```
 
 2. check list: 
     ```
@@ -40,11 +65,11 @@ the follow step will guide you to setup the basic environment for subNvim.
 4. ```unzip codelldb-x86_64-linux.vsix```
 
 5. install nvim:
-	```
-	https://github.com/neovim/neovim/releases/tag/stable
-	wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
-	sudo apt install ./nvim-linux64.deb
-	```
+   ```
+   https://github.com/neovim/neovim/releases/tag/stable
+   wget https://github.com/neovim/neovim/releases/download/stable/nvim-linux64.deb
+   sudo apt install ./nvim-linux64.deb
+   ```
 
 6.  install lldb
     ```
