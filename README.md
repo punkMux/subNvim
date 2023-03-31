@@ -31,7 +31,9 @@ the follow step will guide you to setup the basic environment for subNvim.
    ```sudo apt install g++ clangd ripgrep xsel lldb build-essential  cmake autoconf clang pkg-config libssl-dev unzip fd-find fzf```
 
 2. check list: 
-```sudo apt  install gcc g++ gdb git binutils patch bzip2 flex bison make autoconf automake autogen gettext texinfo unzip sharutils libncurses5-dev ncurses-term zlib1g-dev gawk libexpat1-dev zlib1g-dev libglib2.0-dev pkg-config libtool python3 perl numactl lrzsz```
+    ```
+    sudo apt  install gcc g++ gdb git binutils patch bzip2 flex bison make autoconf automake autogen gettext texinfo unzip sharutils libncurses5-dev ncurses-term zlib1g-dev gawk libexpat1-dev zlib1g-dev libglib2.0-dev pkg-config libtool python3 perl numactl lrzsz
+    ```
 
 3. ```wget https://github.com/vadimcn/vscode-lldb/releases/download/v1.8.1/codelldb-x86_64-linux.vsix```
 
@@ -73,8 +75,10 @@ the follow step will guide you to setup the basic environment for subNvim.
     ```
 
 10. tools 
-   bash: fish, nushell
-   fzf: skim
-   terminal mux:  tmux, zellij
-   terminal emulator:  putty, kitty, alacritty,wrap 
-   tools: starship
+    ```
+    bash: fish, nushell
+    fzf: skim
+    terminal mux:  tmux, zellij
+    terminal emulator:  putty, kitty, alacritty,wrap 
+    tools: starship
+    ```
